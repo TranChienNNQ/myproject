@@ -1,0 +1,85 @@
+/* reset margin, paading */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.banner {
+    border: 1px solid red;
+    height: 300px;
+    width: 100%;
+    background: url("./banner-template-m8lyw.webp") center center no-repeat;
+    padding: 20px;
+
+    .about-signin {
+        height: 30px;
+        width: 100%;
+        text-align: right;
+
+        .about,
+        .sign-in {
+            margin-top: 10px;
+            padding: 5px 10px;
+            text-decoration: none;
+            display: inline-block;
+            text-transform: uppercase;
+        }
+
+        .sign-in {
+            margin-right: 60px;
+            margin-left: 30px;
+            border-radius: 15px;
+            border: 1px solid green;
+        }
+    }
+
+    .logo {
+        background: url(./logo.png) center center no-repeat;
+        margin-top: 40px;
+        height: 100px;
+    }
+
+    .text {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .button-start-now {
+        text-align: center;
+
+        button {
+            text-transform: uppercase;
+            text-align: center center;
+            padding: 6px 15px;
+            border-radius: 15px;
+            border: 1px solid green;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .content-center {
+        margin-top: 5px;
+
+        .content-center-left,
+        .content-center-center,
+        .content-center-right {
+            width: 32%;
+            display: inline-block;
+            text-align: center;
+        }
+
+        span {
+            display: block;
+            font-size: 20px;
+            color: aliceblue;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+        }
+
+    }
+
+}
